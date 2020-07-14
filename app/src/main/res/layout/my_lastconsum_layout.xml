@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lv_my_laCo"
+    android:background="@color/bg_white">
+    <TextView
+        android:background="@color/cyan_identity"
+        android:layout_width="5dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="我的最近一笔"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical|left"
+        android:textSize="16sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/my_last_consum_number"
+        android:textSize="@dimen/middle_text_size"
+        android:gravity="center_vertical|right"
+        android:layout_marginEnd="10dp"
+        android:layout_width="70dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_arrow_index"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+</LinearLayout>

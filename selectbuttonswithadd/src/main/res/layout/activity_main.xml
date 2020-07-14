@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView android:text="Hello World!"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@color/blueGrey"
+        android:textColor="@color/textWhite"/>
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:orientation="horizontal">
+    </GridLayout>
+</LinearLayout>

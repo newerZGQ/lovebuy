@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_tab_my_desire"
+            style="@style/desire_tab_style"
+            android:text="@string/tab_title_my_desire" />
+
+        <TextView
+            android:id="@+id/tv_tab_other_desire"
+            style="@style/desire_tab_style"
+            android:text="@string/tab_title_other_desire" />
+
+        <TextView
+            android:id="@+id/tv_tab_our_desire"
+            style="@style/desire_tab_style"
+            android:text="@string/tab_title_our_desire" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_desire_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v4.view.ViewPager>
+
+    </FrameLayout>
+</LinearLayout>

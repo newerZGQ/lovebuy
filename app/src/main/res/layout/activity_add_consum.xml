@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+    <include layout="@layout/include_toolbar_statusbar"/>
+
+        <com.example.zgq.lovebuy.ui.myUI.CostOrEaringButton
+            android:id="@+id/cost_earing_buttons"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_height="60dp"
+            android:gravity="center">
+        </com.example.zgq.lovebuy.ui.myUI.CostOrEaringButton>
+
+        <RelativeLayout
+            android:id="@+id/rv_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/card">
+            <TextView
+                android:id="@+id/tv_number_title"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:text="@string/cost"
+                style="@style/view_in_card_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_price_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/view_in_card_margin"
+                android:gravity="right"
+                android:textSize="30sp"
+                android:hint="@string/please_input_ptice"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_height"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/card"
+            android:orientation="vertical">
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:longClickable="false"
+                android:numColumns="4"
+                android:layout_gravity="center_horizontal|center_vertical"
+                style="@style/view_in_card_margin"
+                android:id="@+id/gv_lables" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_height"
+            android:layout_gravity="center_horizontal" />
+    <RelativeLayout
+        style="@style/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_rating_title"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="@string/rating_title"
+            style="@style/view_in_card_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.example.zgq.lovebuy.ui.myUI.MyRatingBar
+            style="@style/view_in_card_margin"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            hedgehog:starCount="5"
+            hedgehog:clickable="true"
+            hedgehog:starEmpty="@drawable/ic_star_empty"
+            hedgehog:starFill="@drawable/ic_star_fill"
+            hedgehog:starImageSize="30dp"
+            />
+    </RelativeLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_height"
+            android:layout_gravity="center_horizontal" />
+    <RelativeLayout
+        android:id="@+id/date_edit_layout"
+        style="@style/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_date_title"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/default_date_title"
+            style="@style/view_in_card_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_date_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/view_in_card_margin"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text="@string/default_date"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_height"
+            android:layout_gravity="center_horizontal" />
+    <RelativeLayout
+        style="@style/card"
+        android:id="@+id/rv_detail_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_detail_title"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/detail_title"
+            style="@style/view_in_card_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_detail_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_detail"
+            style="@style/view_in_card_margin"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_height"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zgq.lovebuy.ui.fragment.LastConsumFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_gray"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" >
+            <TextView
+                android:layout_width="80dp"
+                android:text="月支出"
+                android:textSize="12sp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/unfocused_text_color"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_month_number_english"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="FEB"
+                android:textColor="@color/unfocused_text_color"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="80dp"
+                android:text="月收入"
+                android:layout_marginEnd="20dp"
+                android:textSize="12sp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/unfocused_text_color"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" >
+            <TextView
+                android:id="@+id/tv_month_consum_number"
+                android:layout_width="80dp"
+                android:layout_marginStart="20dp"
+                android:text="0"
+                android:gravity="top|center_horizontal"
+                android:textColor="@color/text_white"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_month_number_chinese"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|top"
+                android:text="二月"
+                android:textColor="@color/text_white"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_month_earning_number"
+                android:layout_width="80dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="top|center_horizontal"
+                android:text="0"
+                android:textColor="@color/text_white"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@drawable/year_layout_background"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_year_text"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@color/bg_white"
+                android:text="2016"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal_scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <lecho.lib.hellocharts.view.BubbleChartView
+                    android:id="@+id/bubble_chart"
+                    android:background="@color/bg_white"
+                    android:layout_width="1000dp"
+                    android:layout_height="170dp">
+                </lecho.lib.hellocharts.view.BubbleChartView>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <Space
+            android:background="@color/bg_gray"
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <include
+            layout="@layout/include_day_consum_survey"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <include
+            layout="@layout/my_lastconsum_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <include
+            layout="@layout/include_other_last_consum"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+</RelativeLayout>

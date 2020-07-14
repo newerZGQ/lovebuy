@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <include
+        android:id="@+id/toolbar_statusbar"
+        layout="@layout/include_toolbar_statusbar" />
+    <ListView
+        android:clipToPadding="false"
+        android:dividerHeight="@dimen/other_consum_list_view_divider_height"
+        android:divider="@color/background"
+        android:paddingTop="10dp"
+        android:id="@+id/lVi_other_consum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

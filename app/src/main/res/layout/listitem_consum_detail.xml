@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <ImageView
+        android:background="@drawable/bg_consum_detail_dialog_title"
+        android:src="@drawable/ic_hint_icon"
+        android:scaleType="centerInside"
+        android:textSize="@dimen/middle_text_size"
+        android:textColor="@color/text_white"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_consum_property"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="10dp"
+            android:alpha="0.6"
+            android:textColor="@color/dialog_titles_color"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_consum_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:alpha="0.6"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="@dimen/middle_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_consum_date_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="10dp"
+            android:alpha="0.6"
+            android:text="消费日期"
+            android:textColor="@color/dialog_titles_color"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/consum_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:alpha="0.6"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="@dimen/middle_text_size"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/consum_lable_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="10dp"
+            android:alpha="0.6"
+            android:text="标签"
+            android:textColor="@color/dialog_titles_color"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/consum_lable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:alpha="0.6"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="@dimen/middle_text_size"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/consum_other_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="10dp"
+            android:alpha="0.6"
+            android:text="其他"
+            android:textColor="@color/dialog_titles_color"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold" />
+
+        <com.example.zgq.lovebuy.ui.myUI.MyRatingBar
+            android:layout_gravity="left"
+            android:id="@+id/other_consum_item_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            hedgehog:starCount="5"
+            hedgehog:clickable="false"
+            hedgehog:starEmpty="@drawable/ic_star_empty"
+            hedgehog:starFill="@drawable/ic_star_fill"
+            hedgehog:starImageSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/consum_detail"
+            android:hint="无"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:alpha="0.6"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="@dimen/middle_text_size"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

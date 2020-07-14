@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/count_list_title">
+        <Preference
+            android:key="@string/my_count_pref_key"
+            android:title="@string/my_count"
+            android:defaultValue="@string/default_my_count"/>
+        <Preference
+            android:key="@string/associated_count_pref_key"
+            android:title="@string/associated_count"
+            android:defaultValue="@string/default_associated_count" />
+        <Preference
+            android:key="@string/disassociate_acount_key"
+            android:title="@string/disassociate_count"
+            android:defaultValue="@string/default_disassociate_acount" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/advanced_setting">
+        <SwitchPreference
+            android:key="@string/data_auto_sync_pref_key"
+            android:title="@string/data_auto_sync"
+            android:defaultValue="true" />
+        <Preference
+            android:key="@string/about_app_pref_key"
+            android:title="@string/about_app"
+            android:defaultValue=""/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

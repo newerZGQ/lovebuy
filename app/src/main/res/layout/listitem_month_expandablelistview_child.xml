@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/bg_white"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/tv_consum_number"
+        android:text="345"
+        android:gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:textSize="@dimen/middle_text_size"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_marginEnd="40dp"
+        android:id="@+id/consum_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</LinearLayout>

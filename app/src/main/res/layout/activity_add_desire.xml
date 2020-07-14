@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+    <include layout="@layout/include_toolbar_statusbar"/>
+
+    <RelativeLayout
+        android:id="@+id/rv_desire_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/card">
+        <TextView
+            android:id="@+id/tv_desire_number_title"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/add_desire_number_title"
+            style="@style/view_in_card_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_desire_price_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/view_in_card_margin"
+            android:gravity="right"
+            android:textSize="30sp"
+            android:hint="@string/please_input_ptice"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_height" />
+    <EditText
+        android:id="@+id/edtTxt_desire"
+        android:gravity="left|top"
+        android:background="@color/bg_white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/desire_editview_height" />
+</LinearLayout>
+

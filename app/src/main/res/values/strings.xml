@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">小钱包</string>
+    <string name="title_activity_login">小钱包</string>
+
+    <!-- Strings related to login -->
+    <string name="failed_check_your_email_and_password">注册失败，请检查邮箱和密码</string>
+    <string name="email_has_been_registered">该邮箱已经被注册</string>
+    <string name="error_invalid_email_or_password">账号或密码错误</string>
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登陆</string>
+    <string name="action_register">注册</string>
+    <string name="login_toolbar_title">登陆与注册</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">邮箱地址不可用</string>
+    <string name="error_invalid_password">密码长度至少4位</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">请填写</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    
+    <!--strings related to homeActivity -->
+    <string name="more_action_down_exit_application">再按一次退出程序</string>
+    <string name="synchronizing_from_web">正在同步</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">设置</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="navigation_home">消费</string>
+    <string name="navigation_chart">图表</string>
+    <string name="navigation_desire">愿望</string>
+    <string name="navigation_find">发现</string>
+    <string name="add_consum">消费</string>
+    <string name="add_desire">愿望</string>
+    <string name="detail_title">备注</string>
+    <string name="default_detail">无</string>
+    <string name="please_input_ptice">0</string>
+    <string name="only_number_and_.">1234567890.</string>
+    <string name="save">确定</string>
+    <string name="yes">确定</string>
+    <string name="cancel">取消</string>
+    <string name="yes_to_delete">确定删除吗？</string>
+    <string name="default_lable">无标签</string>
+    <string name="delete">删除</string>
+
+    <!--strings related to chartfragmnet -->
+    <string name="consum_distribution">消费分布</string>
+    <string name="no_records">无记录</string>
+    <string name="no_consum">无支出</string>
+    <string name="other_part_of_consum">其他</string>
+
+    <!--strings related to desirefragmnet -->
+    <string name="have_not_associat_with_other">未与对方关联</string>
+    <string name="action_add_consum_lable">+</string>
+    <string name="less_three_chart">标签，不多于三个字</string>
+
+    <string name="default_date_title">日期</string>
+    <string name="default_image_id">id</string>
+    <string name="default_property">-1</string>
+    <string name="cost">支出</string>
+    <string name="earning">收入</string>
+    <string name="wrong_input">您的输入有误哦~</string>
+    <string name="date_title">选择日期</string>
+    <string name="cost_title">支出</string>
+    <string name="earing_title">收入</string>
+    <string name="rating_title">满意度</string>
+    <string name="default_date">今天></string>
+    <string name="hello_lastconsum_fragment">Hello lastconsum fragment</string>
+    <string name="hello_chart_fragment">Hello chart fragment</string>
+    <string name="hello_deaire_fragment">Hello desire fragment</string>
+    <string name="hello_web_fragment">Hello web fragment</string>
+
+    <string name="add_consum_toolbar_title">新建消费</string>
+    <string name="add_desire_toolbar_title">新建愿望</string>
+    <string name="add_consum_toolbar_done_menu_title">确定</string>
+    <string name="add_desire_number_title">预计花费</string>
+    <string name="tab_title_our_desire">我们的</string>
+    <string name="tab_title_my_desire">我的</string>
+    <string name="tab_title_other_desire">TA的</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--String related to MyConsumActivity-->
+    <string name="next_month">下个月</string>
+    <string name="last_month">上个月</string>
+    <string name="confirm_delete_consum">确定删除该项记录么</string>
+    <string name="delete_consum">删除</string>
+    <string name="my_month_consums">我的月记录</string>
+
+    <!--String related to otherConsumActivity-->
+    <string name="other_recent_consums">Ta最近的消费</string>
+
+    <!--String related to Async From sharedpreferences to web -->
+    <string name="unSavedConsumCache">unSavedConsumCache</string>
+    <string name="unSavedDesireCache">unSavedDesireCache</string>
+    <string name="unDeleConsumCache">unDeleConsumCache</string>
+    <string name="unDeleDesireCache">unDeleDesireCache</string>
+
+    <!--String related to associate -->
+    <string name="associate">关联账号</string>
+    <string name="associate_succesful">关联成功</string>
+    <string name="associate_failed">关联失败，请检查账号或密码</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="count_list_title">账号</string>
+
+    <string name="my_count">我的账号</string>
+    <string name="my_count_pref_key">my_count</string>
+    <string name="default_my_count">未登陆</string>
+
+    <string name="associated_count">关联Ta的账号</string>
+    <string name="default_associated_count">未关联账号</string>
+    <string name="associated_count_pref_key">associated_count</string>
+
+    <string name="disassociate_count">解除关联的账号</string>
+    <string name="have_associated_a_acount">您已经关联一个账号了</string>
+    <string name="have_not_associate_with_other">您未关联任何账号</string>
+    <string name="disassociate_acount_key">disassociate_acount</string>
+    <string name="default_disassociate_acount">disassociate</string>
+    <string name="confirm_disassociate">确定解除关联么？</string>
+    <string name="have_not_associate">未与对方关联</string>
+    <string name="disassociated_succesful">成功解除关联</string>
+    <string name="disassociated_failed">解除关联失败</string>
+
+    <string name="advanced_setting">高级</string>
+    <string name="data_sync_title">同步设置</string>
+    <string name="data_auto_sync_pref_key">is_data_auto_sync</string>
+    <string name="data_auto_sync">是否自动同步</string>
+
+    <string name="about_app_pref_key">about_app</string>
+    <string name="about_app">关于小钱包</string>
+    <string name="about_app_dialog_title">关于小钱包</string>
+
+    <string name="exit_button_text">退出登录</string>
+    <string name="confirm_exit">确定退出？</string>
+    <string name="will_delete_all_data">退出将会删除所有本地记录</string>
+
+    //string in desire_detail_activity
+    <string name="desire_detail_toolbar_title">我的愿望</string>
+    <string name="desire_detail_had_cost">已消费</string>
+    <string name="desire_detail_had_not_cost">预计消费</string>
+    
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_settings1">Settings</string>
+    <string name="title_activity_associate">Sign in</string>
+
+</resources>

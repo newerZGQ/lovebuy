@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMonthSurvey">#ffffff</color>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="textColorPrimary">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lable_bg">#bbffeb56</color>
+
+
+    <color name="bg_black">#000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_topbar">#FCFCFC</color>
+    <color name="bg_gray">#00F1F1F1</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="text_gray">#8D7A71</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_yellow">#FFC800</color>
+    <color name="text_topbar">#694E42</color>
+    <color name="div_white">#E5E5E5</color>
+    <color name="background">#eceff1</color>
+    <color name="background_material_light">#fafafa</color>
+    <color name="foreground_material_light">#000000</color>
+    <color name="black">#000000</color>
+    <color name="statusBarColor">#303f9f</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="windowBackground">#fafafa</color>
+    <color name="unfocused_text_color">#80FFFFFF</color>
+    <color name="unfocused_date_color">#80000000</color>
+
+    //floatactionbutton_color
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    //desire_list
+    <color name="cyan_identity">#18FFFF</color>
+    <color name="red_identity">#FF8A80</color>
+
+    //lastFragment_day_part
+    <color name="day_part_unfocused_Text_color">#50000000</color>
+    <color name="day_part_focused_Text_color">#80000000</color>
+    <color name="day_part_date_text_color">#2E7D32</color>
+
+    //ConsumActivity
+    <color name="parent_list_title_color">#50FFFFFF</color>
+    <color name="parent_list_background">#64B5F6</color>
+    <color name="dialog_titles_color">#E91E63</color>
+
+</resources>

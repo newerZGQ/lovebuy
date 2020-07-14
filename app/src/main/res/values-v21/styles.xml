@@ -1,0 +1,11 @@
+<resources>>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- Navigation Bar -->
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>
